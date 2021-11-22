@@ -1,0 +1,7 @@
+list(APPEND BLOCKCHAIN_HEADERS
+        ${CMAKE_CURRENT_SOURCE_DIR}/block.hpp)
+
+list(APPEND BLOCKCHAIN_SOURCES
+        ${CMAKE_CURRENT_SOURCE_DIR}/block.cpp)
+
+add_files()
